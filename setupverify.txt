@@ -1,0 +1,21 @@
+user
+yesukay
+GNU bash, version 5.0.18(1)-release (x86_64-apple-darwin19.5.0)
+Copyright (C) 2019 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+vs code version info
+1.48.2
+a0479759d6e9ea56afa657e454193f72aef85bd0
+x64
+git version 2.28.0
+git user name
+yesukay2
+git user email
+yesukay2@gmail.com
+node version
+v12.18.3
+npm version
+6.14.6
