@@ -1,31 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <div style="width: device-width; height: auto; margin:50px auto; padding: 30px; background-color: #63630a;text-align: center; color: bisque;font-size:80px;"><b>Extracurricular Activities</b></div>
         <title>Extracurricular activities </title>
         <meta charset="utf-8">
         <style>
+           body {width:auto!important;height:auto!important;}
+            body {
+                background-color: #8d9676;
+            }
             .nav-menu{
                 text-align: right;
             }
             .nav-spacing{
                 margin: 0 0 0 10px;
             }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                }
+
+                li {
+                float: left;
+                }
+
+                li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                }
+
+                li a:hover {
+                background-color: #111;
+                }
+               
                
         </style>
     </head>
     <body>
-        <div style="width: 500px; margin: 20px auto; padding: 30px; background-color: #464609;"> 
+        <ul>
             <div id = "main-nav" class = "nav-menu">
-                <a href="index.html">Home</a>
-                <a href="skills.html" class = "nav-spacing">Skills</a>
-                <a href="coursework.html" class = "nav-spacing">Coursework</a>
-                <a href="workexp.html" class = "nav-spacing">Work Experience</a>
-                <a href="projects.html" class = "nav-spacing">Projects</a>
-                <a href="ectracur.html" class = "nav-spacing">Extracurricular Activities</a>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="skills.html" class = "nav-spacing">Skills</a></li>
+                <li><a href="coursework.html" class = "nav-spacing">Coursework</a></li>
+                <li><a href="workexp.html" class = "nav-spacing">Work Experience</a></li>
+                <li><a href="projects.html" class = "nav-spacing">Projects</a></li>
+                <li><a href="ectracur.html" class = "nav-spacing">Extracurricular Activities</a></li>
             </div>
         
+        </ul>
+        
             <p>
-                <ul>
+                <ol>
                     <li>
                         <p>
                             During the second semester of my second year, I aspired for the position of a Judicial Electoral Council (JEC) 
@@ -44,8 +76,8 @@
                             I also like to play Table Tennis with my mates during some free times.
                         </p>
                     </li>
-                </ul>
+                </ol>
             </p>
-        </div>
+       
     </body>
 </html>

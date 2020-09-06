@@ -1,28 +1,65 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <div style="width: device-width; height: auto; margin:50px auto; padding: 30px; background-color: #63630a;text-align: center; color: bisque;font-size:80px;"><b>Coursework</b></div>
         <title>Coursework</title>
         <meta charset="utf-8">
         <style>
+            body {width:auto!important;height:auto!important;}
+            body {
+                background-color: #8d9676;
+            }
             .nav-menu{
                 text-align: right;
             }
             .nav-spacing{
                 margin: 0 0 0 10px;
             }
-               
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                }
+
+            li a{
+                float: left;
+                }
+
+            li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            li a:hover {
+            background-color: #111;
+            }
+            a:hover {color:none;} 
+            a.links:hover {color:white;}
+            ol li { padding: 0; margin: 0; }
+            ol a { padding: 0; display: block; }
+            
         </style>
     </head>
     <body>
-        <div id = "main-nav" class = "nav-menu">
-            <a href="index.html">Home</a>
-            <a href="skills.html" class = "nav-spacing">Skills</a>
-            <a href="coursework.html" class = "nav-spacing">Coursework</a>
-            <a href="workexp.html" class = "nav-spacing">Work Experience</a>
-            <a href="projects.html" class = "nav-spacing">Projects</a>
-            <a href="ectracur.html" class = "nav-spacing">Extracurricular Activities</a>
-        </div>
-        <div style="width: 500px; margin: 20px auto; padding: 30px; background-color: #464609;"> </div>
+       
+        <ul>
+            <div id = "main-nav" class = "nav-menu">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="skills.html" class = "nav-spacing">Skills</a></li>
+                <li><a href="coursework.html" class = "nav-spacing">Coursework</a></li>
+                <li><a href="workexp.html" class = "nav-spacing">Work Experience</a></li>
+                <li><a href="projects.html" class = "nav-spacing">Projects</a></li>
+                <li><a href="ectracur.html" class = "nav-spacing">Extracurricular Activities</a></li>
+            </div>
+        
+        </ul>
+            
             <p>
                 One thing I love about Ashesi University is their choice of educational system, thus, the <em>liberal art system.</em> 
                 In my case for instance, I am majoring in Computer Science but the educational system used in the school requires me 
@@ -30,18 +67,19 @@
                 in-depth knowledge in Computer Science. This type of educational system always reminds me of my version of a very common phrase 
                 <em>jack of many, master of one</em>. But for now, i will just list only the Computer Science related coursework.
             </p>
-            <p>
-                <ul>
-                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Data%20Structures%20and%20Algorithms" target="_blank" rel="noopener"> <strong>Structures and Algorithms</strong></a></li>
-                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Database%20Systems" target="_blank"  rel="noopener"> <strong>Database Systems</strong></a></li>
-                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Computer%20Programming%20for%20Computer%20Science" target="_blank" rel="noopener"> <strong>Computer Programming for Computer Science</strong></a></li>
-                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Introduction%20to%20Computing%20&%20Information%20Systems" target="_blank" rel="noopener"> <strong>Introduction to Computing & Information Systems</strong></a></li>
-                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Web%20Technologies" target="_blank" rel="noopener"> <strong>Web Technologies</strong></a></li>
-                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Intermediate%20Computer%20Programming" target="_blank" rel="noopener"><strong>Intermediate Computer Programming</strong></a></li>
-                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Discrete%20Theory%20and%20Structures" target="_blank" rel="noopener"> <strong>Discrete Structures and Theory</strong></a></li>
-
-                </ul>
+            <p style="color:white;font-size:40px;">
+                
+                <ol style="color:white;font-size:20px;">
+                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Data%20Structures%20and%20Algorithms" class="links" target="_blank" rel="noopener"> <strong>Data Structures and Algorithms</strong></a></li>
+                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Database%20Systems"  class="links" target="_blank"  rel="noopener"> <strong>Database Systems</strong></a></li>
+                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Computer%20Programming%20for%20Computer%20Science" class="links" target="_blank" rel="noopener"> <strong>Computer Programming for Computer Science</strong></a></li>
+                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Introduction%20to%20Computing%20&%20Information%20Systems" class="links" target="_blank" rel="noopener"> <strong>Introduction to Computing & Information Systems</strong></a></li>
+                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Web%20Technologies" class="links" target="_blank" rel="noopener"> <strong>Web Technologies</strong></a></li>
+                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Intermediate%20Computer%20Programming" class="links" target="_blank" rel="noopener"><strong>Intermediate Computer Programming</strong></a></li>
+                    <li><a href="https://www.ashesi.edu.gh/academics/programmes/computer-science/computer-science-courses.html#Discrete%20Theory%20and%20Structures" class="links" target="_blank" rel="noopener"> <strong>Discrete Structures and Theory</strong></a></li>
+                </ol>
+           
             </p>
-        </div>    
+      
     </body>
 </html>

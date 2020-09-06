@@ -1,64 +1,96 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <div style="width: device-width; height: auto; margin:50px auto; padding: 30px; background-color: #63630a;text-align: center; color: bisque;font-size:80px;"><b>Skills</b></div>
         <title>Skills</title>
         <meta charset="utf-8">
         <style>
+           body {width:auto!important;height:auto!important;}
+            body {
+                background-color: #8d9676;
+            }
             .nav-menu{
                 text-align: right;
             }
             .nav-spacing{
                 margin: 0 0 0 10px;
             }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                }
+
+            li a{
+                float: left;
+                }
+
+                li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                }
+
+                li a:hover {
+                background-color: #111;
+                }
                
         </style>
     </head>
     <body>
-        <div id = "main-nav" class = "nav-menu">
-            <a href="index.html">Home</a>
-            <a href="skills.html" class = "nav-spacing">Skills</a>
-            <a href="coursework.html" class = "nav-spacing">Coursework</a>
-            <a href="workexp.html" class = "nav-spacing">Work Experience</a>
-            <a href="projects.html" class = "nav-spacing">Projects</a>
-            <a href="ectracur.html" class = "nav-spacing">Extracurricular Activities</a>
-        </div>
-        <div style="width: 500px; margin: 20px auto; padding: 30px; background-color: #464609;"> </div>
-            <p>
-                As a <em>Computer Science</em> student, I have learnt a couple of programming languages overtime. Below is a list:
-            </p>
-            <p>
-                <ol>
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>SQL</li>
-                    <li>C/C++</li>
-                    <li>HTML</li>
-                    <li>R</li>
-                </ol>
-            </p>
-            <p>
-                Although I have had the opportunity to learn these programming languages over a period of two years, 
-                I find it reasonable and efficient to focus on one particular programming language. Some people may 
-                find this statement arguable but my reason for that kind of decision is that, if you try to learn all (or more than 3) 
-                the programming languages at a time (without ofcourse having the brain of a super genius), everything jams up in 
-                your mind, making you unable to gain deep knowledge for all. Rather if you focus on at most two (but at best one) 
-                programming language,then you can gain a very deep knowledge and more experience in that particular language. 
-                For this reason,I chose to focus on Java and HTML.
-            </p>
-            <h1>Java Project</h1>
-            <p>In a  team of 4 in my Second Year, we built a program that basically tracks the conditions of lands with respect to 
-                <em>Illegal Minning</em> in various regions  in Ghana. The program allows user to input the <em>latitude and longitude</em> 
-                for the location they are and select a colour code for the current condition of the land (Green :Healthy Vegetation with no 
-                "galamsey", Yellow :Fair Vegetation with Potential "Galamsey", Brown :Poor Vegetation with "Galamsey")
-            </p>
+        <ul>
+            <div id = "main-nav" class = "nav-menu">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="skills.html" class = "nav-spacing">Skills</a></li>
+                <li><a href="coursework.html" class = "nav-spacing">Coursework</a></li>
+                <li><a href="workexp.html" class = "nav-spacing">Work Experience</a></li>
+                <li><a href="projects.html" class = "nav-spacing">Projects</a></li>
+                <li><a href="ectracur.html" class = "nav-spacing">Extracurricular Activities</a></li>
+            </div>
+        
+        </ul>
+            
+                <p style="color:white;font-size:40px;">
+                    As a <em>Computer Science</em> student, I have learnt a couple of programming languages overtime. Below is a list:
+                </p>
+                <p style="color:white;font-size:40px;">
+                    <ol style="color:white;font-size:35px;">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>C/C++</li>
+                        <li>HTML</li>
+                        <li>R</li>
+                    </ol>
+                </p>
+                <p style="color:white;font-size:40px;">
+                    Although I have had the opportunity to learn these programming languages over a period of two years, 
+                    I find it reasonable and efficient to focus on one particular programming language. Some people may 
+                    find this statement arguable but my reason for that kind of decision is that, if you try to learn all (or more than 3) 
+                    the programming languages at a time (without ofcourse having the brain of a super genius), everything jams up in 
+                    your mind, making you unable to gain deep knowledge for all. Rather if you focus on at most two (but at best one) 
+                    programming language,then you can gain a very deep knowledge and more experience in that particular language. 
+                    For this reason,I chose to focus on Java and HTML.
+                </p>
+                <h1 style="color:white;font-size:80px;">Java Project</h1>
+                <p style="color:white;font-size:40px;">In a  team of 4 in my Second Year, we built a program that basically tracks the conditions of lands with respect to 
+                    <em>Illegal Minning</em> in various regions  in Ghana. The program allows user to input the <em>latitude and longitude</em> 
+                    for the location they are and select a colour code for the current condition of the land (Green :Healthy Vegetation with no 
+                    "galamsey", Yellow :Fair Vegetation with Potential "Galamsey", Brown :Poor Vegetation with "Galamsey")
+                </p>
 
-            <p>Aside programming, I have a significant experience in the following software programs:
-                <ul>
-                    <li>Microsoft Word</li>
-                    <li>Microsoft Excel</li>
-                    <li>Microsoft Powerpoint</li>
-                </ul>
-            </p>
-        </div>    
+                <p style="color:white;font-size:40px;">Aside programming, I have a significant experience in the following software programs:
+                    <ol style="color:white;font-size:35px;">
+                        <li>Microsoft Word</li>
+                        <li>Microsoft Excel</li>
+                        <li>Microsoft Powerpoint</li>
+                    </ol>
+                </p>  
+           
     </body>
 </html>

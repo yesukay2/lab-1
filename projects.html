@@ -1,60 +1,94 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <div style="width: device-width; height: auto; margin:50px auto; padding: 30px; background-color: #63630a;text-align: center; color: bisque;font-size:80px;"><b>Projects</b></div>
         <title>Projects</title>
         <meta charset="utf-8">
         <style>
+           body {width:auto!important;height:auto!important;}
+            body {
+                background-color: #8d9676;
+            }
             .nav-menu{
                 text-align: right;
             }
             .nav-spacing{
                 margin: 0 0 0 10px;
             }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                }
+
+                li {
+                float: left;
+                }
+
+                li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                }
+
+                li a:hover {
+                background-color: #111;
+                }
                
         </style>
     </head>
     <body>
-        <div id = "main-nav" class = "nav-menu">
-            <a href="index.html">Home</a>
-            <a href="skills.html" class = "nav-spacing">Skills</a>
-            <a href="coursework.html" class = "nav-spacing">Coursework</a>
-            <a href="workexp.html" class = "nav-spacing">Work Experience</a>
-            <a href="projects.html" class = "nav-spacing">Projects</a>
-            <a href="ectracur.html" class = "nav-spacing">Extracurricular Activities</a>
-        </div>
-        <div style="width: 500px; margin: 20px auto; padding: 30px; background-color: #464609;"> </div>
-            <p>In most of my programming courses, I am required to do at least one project. I'll list a few of them for now:
-                <ul>
-                    <li>
-                        <strong>Database Project:</strong>
-                    </li>
-                    <p>
-                        Horse Rental Company:<br> With this project, I solely used SQL to build a database program that stores
-                        data from a company that deals in horse rental. The program stores the information of every emploee in 
-                        the company. It also stores the details of every vehicle in the company. The program was aimed at solving 
-                        the problem of having to keep a written log in a horse rental company. It keeps track of the movement of every 
-                        employee and the vehicles in the company and keep record of the rental services provided. 
-                    </p>
-                    <li>
-                        <strong>Illegal Minning Project:</strong>
-                    </li>
-                    <p>
-                        Galamsey Monitor:<br> In a  team of 4 in my Second Year, we built a program that basically tracks the conditions of lands with respect to 
-                        <em>Illegal Minning</em> in various regions  in Ghana. The program allows user to input the <em>latitude and longitude</em> 
-                        for the location they are and select a colour code for the current condition of the land (Green :Healthy Vegetation with no 
-                        "galamsey", Yellow :Fair Vegetation with Potential "Galamsey", Brown :Poor Vegetation with "Galamsey")
-                    </p>
-                    <li>
-                        <strong> Employee Exeact System:</strong>
-                    </li>
-                    <p>
-                        Exeat:<br> Currently, I am working on an exeat system for a company. This system will be built in such a way that anytime
-                        any employee wants to go out of the working premise/office, he/she must be logged into  a system that will send a 
-                        message to the security post system and serve as a pass for the  employee. This programs is going to be made in such a
-                        such a way that a <em>higher ranking member</em> of the company will have to approve any logged request.
-                    </p>
-                </ul>
-            </p>
-        </div>
+       
+        <ul>
+            <div id = "main-nav" class = "nav-menu">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="skills.html" class = "nav-spacing">Skills</a></li>
+                <li><a href="coursework.html" class = "nav-spacing">Coursework</a></li>
+                <li><a href="workexp.html" class = "nav-spacing">Work Experience</a></li>
+                <li><a href="projects.html" class = "nav-spacing">Projects</a></li>
+                <li><a href="ectracur.html" class = "nav-spacing">Extracurricular Activities</a></li>
+            </div>
+        
+        </ul>
+            
+                <p>In most of my programming courses, I am required to do at least one project. I'll list a few of them for now:
+                    <ol>
+                        <li>
+                            <strong>Database Project:</strong>
+                        </li>
+                        <p>
+                            <br><br>Horse Rental Company:<br> With this project, I solely used SQL to build a database program that stores
+                            data from a company that deals in horse rental. The program stores the information of every emploee in 
+                            the company. It also stores the details of every vehicle in the company. The program was aimed at solving 
+                            the problem of having to keep a written log in a horse rental company. It keeps track of the movement of every 
+                            employee and the vehicles in the company and keep record of the rental services provided. 
+                        </p>
+                        <li>
+                            <strong>Illegal Minning Project:<br></strong>
+                        </li>
+                        <p>
+                            <br> <br> Galamsey Monitor:
+                            <br>In a  team of 4 in my Second Year, we built a program that basically tracks the conditions of lands with respect to 
+                            <em>Illegal Minning</em> in various regions  in Ghana. The program allows user to input the <em>latitude and longitude</em> 
+                            for the location they are and select a colour code for the current condition of the land (Green :Healthy Vegetation with no 
+                            "galamsey", Yellow :Fair Vegetation with Potential "Galamsey", Brown :Poor Vegetation with "Galamsey")
+                        </p>
+                        <li>
+                            <strong> Employee Exeact System:</strong>
+                        </li>
+                        <p>
+                            <br> <br> Exeat:<br> Currently, I am working on an exeat system for a company. This system will be built in such a way that anytime
+                            any employee wants to go out of the working premise/office, he/she must be logged into  a system that will send a 
+                            message to the security post system and serve as a pass for the  employee. This programs is going to be made in such a
+                            such a way that a <em>higher ranking member</em> of the company will have to approve any logged request.
+                        </p>
+                    </ol>
+                </p>
+       
     </body>
 </html>
