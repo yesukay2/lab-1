@@ -2,6 +2,7 @@
 Name : YESU KUMI APRAKU
 Course : Computer Science
 Student ID : 55442022
+Website Link : https://yesukay2.github.io/myweb/
 This file is the template for the first lab in Ashesi Web Development 2020.
 
 ## Contents
