@@ -39,11 +39,35 @@
                 li a:hover {
                 background-color: #111;
                 }
+                footer {
+                    display: block;
+                    text-align: center;
+                    padding: 3px;
+                    background-color: rgb(36, 37, 21);
+                    color: white;
+                }
+
+                #page-container {
+                position: relative;
+                min-height: 100vh;
+                }
+
+                #content-wrap {
+                padding-bottom: 2.5rem;   
+                }
+
+                #footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 2.5rem;            
+                }
                
         </style>
     </head>
     <body>
-       
+        <div id="page-container">
+            <div id="content-wrap">
         <ul>
             <div id = "main-nav" class = "nav-menu">
                 <li><a class="active" href="index.html">Home</a></li>
@@ -89,6 +113,12 @@
                         </p>
                     </ol>
                 </p>
-       
+            </div>
+            <footer id="footer">
+                <p> 
+                    &copy;Yesu Kumi Apraku 2020 &nbsp;&nbsp;<a style="color: antiquewhite;" href="https://www.linkedin.com/in/yesukumiapraku/">LinkedIn Profile</a> &nbsp;&nbsp;Email: yesukay2@gmail.com
+                </p>
+              </footer>
+            </div>
     </body>
 </html>
