@@ -1,138 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <div style="width: device-width; height: auto; margin:50px auto; padding: 30px; background-color: #333;text-align: center; color: rgb(247, 245, 242);font-size:50px;"><b>Home</b></div>
-        <title>Yesu Kumi Apraku's Portfolio</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <meta charset="utf-8">
+    <title>Curriculum Vitae</title>
+  </head>
+  <body>
+    <div style="width:900px; margin:0 auto;">
+      <div class="header1">
+        <h1>CV Form.</Form></h1>
+      </div>
 
-        
-        <style>
-          
-
-
-            body {
-                width:100%!important;
-                height:100%!important;
-                padding: 0; 
-                margin: 0; 
-                }
-            img {
-                border-radius: 15%;
-                }
-            body {
-                background-color: #fafafa;
-            }
-            
-            .nav-menu{
-                text-align: right;
-            }
-            .nav-spacing{
-                margin: 0 0 0 10px;
-            }
-
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                background-color: #333;
-                }
-
-                li a{
-                float: left;
-                }
-
-                li a {
-                display: block;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                }
-
-                li a:hover {
-                background-color: #111;
-                }
-                .menu-highlight:active {
-                border-radius: 22px;
-                }
-               
-                footer {
-                    display: block;
-                    text-align: center;
-                    padding: 3px;
-                    background-color: rgb(36, 37, 21);
-                    color: white;
-                }
-
-                #page-container {
-                position: relative;
-                min-height: 100vh;
-                }
-
-                #content-wrap {
-                padding-bottom: 2.5rem;   
-                }
-
-                #footer {
-                position: absolute;
-                bottom: 0;
-                width: 100%;
-                height: 2.5rem;            
-                }
-
-                .nav-menu .active{
-                    background-color: rgb(128, 134, 96);
-                }
-
-                html{
-                    width:100%;
-                    height:100%;
-                }
-                #body{
-                    width:100%;
-                    height:100%;
-                    
-                }
-                
-                                
-        </style>
-    </head>
-    <body>
-       <div width: 100%;  min-width: 1000px; min-height: 1000px>
-        <div id="page-container">
-            <div id="content-wrap">
-                <div id="body" !important>
-        <ul>
-            <div id = "main-nav" class = "nav-menu">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="skills.html" class = "nav-spacing">Skills</a></li>
-                <li><a href="coursework.html" class = "nav-spacing">Coursework</a></li>
-                <li><a href="workexp.html" class = "nav-spacing">Work Experience</a></li>
-                <li><a href="projects.html" class = "nav-spacing">Projects</a></li>
-                <li><a href="ectracur.html" class = "nav-spacing">Extracurricular Activities</a></li>
-            </div>
-        
-        </ul>
-                <img src="Picture.png" alt="Yesu Kumi Apraku" width="50%" height="60%" style="float: left; margin: 20px 40px 0 0; padding: 20px;">
-                <h1 style="text-align: center; color: #111; font-size: 45px;">About</h1>
-                <p style="color:rgb(34, 32, 32);font-size:30px;">
-                    My name is Yesu Kumi Apraku, a proud Ghanaian and a student of <em>Ashesi University</em> where I am currently studying <em>Computer Science.</em> 
-                    In the summer of 2018 my pursuit of a <em>Bachelor’s degree in Computer Science</em> began at Ashesi University, Ghana. 
-                    I choose Computer Science because of my keen interest in the field of technology and programming. However my ambitions would lead to me to pursue a <em>Masters Degree in Web Development</em> 
-                    due to the <em>great demamd</em> for programmers in that field.
-                    I am open to any Web Development project or opportunities. You can connect with me via <a href="https://www.linkedin.com/in/yesukumiapraku/">
-                    Linkedin</a>.
-                </p>
-            </div>
-            <footer id="footer">
-                <p> 
-                    &copy;Yesu Kumi Apraku 2020 &nbsp;&nbsp;<a style="color: antiquewhite;" href="https://www.linkedin.com/in/yesukumiapraku/">LinkedIn Profile</a> &nbsp;&nbsp;<a style="color: antiquewhite;" href="https://twitter.com/yesu_kay">Follow me on Twitter</a> &nbsp;&nbsp; Snapchat: @yesu-kay2 &nbsp;&nbsp;Email: yesukay2@gmail.com
-                </p>
-              </footer>
-            </div>
-        </div>
-        </div>
-    </body>
+      <div class="form-container">
+        <form name="form" id="form" method="post">
+          <label for="First Name">First Name</label>
+          <input type="text" id="firstname" name="fName" placeholder="Firstname"><br>
+          <label for="Middle Name">Middle Name</label>
+          <input type="text" id="midname" name="mName" placeholder="Middle Name"><br>
+          <label for="Last Name">Last Name</label>
+          <input type="text" id="lastname" name="lName" placeholder="Lastname"><br>
+          <label for="Gender">Gender</label>
+          <select id="gender" name="gender"><br>
+            <option value="Male">Male</option><br>
+            <option value="Female">Female</option><br>
+          </select><br>
+          <label for="Mobile">Mobile</label>
+          <input type="tel" id="mobile" name="mobile" placeholder="Mobile"><br>
+          <label for="Email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email"><br>
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" placeholder="Address"><br>
+          <button onclick="submit()">Submit</button>
+        </form>
+      </div>
+  </div>
+  </body>
 </html>
